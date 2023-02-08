@@ -205,4 +205,4 @@ class TrabajadorUnitarioController(Resource):
 
 api.add_resource(TrabajorController, '/api/trabajadores')
 api.add_resource(TrabajadorUnitarioController,'/api/trabajador/<int:id>')
-app.run(debug=True)
+# app.run(debug=True)
